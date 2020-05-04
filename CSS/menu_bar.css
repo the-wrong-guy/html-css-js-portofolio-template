@@ -1,0 +1,69 @@
+
+/* Menu */
+
+.ham-menu {
+    left: 5px;
+    top: 5px;
+    position: fixed;
+    z-index: 100;
+  }
+  
+  .menu {
+    display: block;
+    width: 40px;
+    height: 36px;
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .menu div {
+    position: absolute;
+    height: 4px;
+    border-radius: 2px;
+    background: #fff;
+    transition: transform 0.45s cubic-bezier(0.9, -0.6, 0.3, 1.6),
+      width 0.2s ease 0.2s;
+  }
+  
+  .menu .first-div {
+    top: 50%;
+    left: 0;
+    margin: -2px 0 0 0;
+    width: 40px;
+    transform-origin: 50% 50%;
+  }
+  .menu .second-div {
+    top: 2px;
+    left: 0;
+    width: 20px;
+    transform-origin: 0 50%;
+  }
+  .menu .third-div {
+    bottom: 2px;
+    right: 0;
+    width: 28px;
+    transform-origin: 100% 50%;
+    transform: translate(-12px, 0);
+  }
+  
+  /* Menu animation */
+  
+  .first-div-ani {
+    transform: rotate(-45deg);
+    transition: transform 0.45s cubic-bezier(0.9, -0.6, 0.3, 1.6) 0.1s;
+  }
+  
+  .second-div-ani {
+    width: 19px;
+    transform: translate(6px, 0) rotate(45deg);
+    transition: transform 0.45s cubic-bezier(0.9, -0.6, 0.3, 1.6) 0.1s,
+      width 0.2s ease;
+  }
+  
+  .menu .third-div-ani {
+    width: 20px;
+    transform: translate(-6px, 0) rotate(45deg);
+    transition: transform 0.45s cubic-bezier(0.9, -0.6, 0.3, 1.6) 0.1s,
+      width 0.2s ease;
+  }
+  

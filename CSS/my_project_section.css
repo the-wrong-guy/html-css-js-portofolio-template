@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+.my-projects-sec{
+    background: linear-gradient(#ecdd4e,#4eec95, #1ecfcf);
+    display: flex;
+    flex-direction: column;
+  }
+
+  .project-header{
+    color: #000000;
+    text-align: center;
+    font-size: 2.3em;
+    letter-spacing: 5px;
+    font-family: 'Concert One', cursive;
+    /* animation: forHeader 3s linear; */
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+
+  @keyframes forHeader {
+    from{
+      color: rgb(7, 7, 7);
+    }
+    to{
+      color: rgb(235, 252, 0);
+    }
+  }
+
+  .project-header-span{
+    color: #fff;
+    -webkit-text-stroke: 2px rgb(13, 238, 5);
+    animation : stroke 2s linear ;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes stroke{
+    25%{
+      -webkit-text-stroke-color: rgb(255, 0, 128);
+    }
+    50%{
+      -webkit-text-stroke-color: rgb(0, 247, 255);
+    }
+    75%{
+      -webkit-text-stroke-color: rgb(162, 0, 255);
+    }
+    100%{
+      -webkit-text-stroke-color: rgb(218, 173, 26);
+    }
+  }
+
+
+
+  .project-frames{
+    display: flex;
+    justify-content: center;
+    margin-top: 16%;
+  
+  }
+
+  .project-frames > iframe{
+    margin: 0  60px;
+    width: 330px;
+    height: 200px;
+    border: 10px solid #df491c;
+  }
+
+  .frame-names{
+    margin-top:7px ;
+    display: flex;
+    justify-content: space-evenly;
+    font-weight: 700;
+    letter-spacing: 1px;
+  }
+
+  .frame-names > a:hover{
+   color: #000000;
+   text-shadow: 0px 2px 4px #09d3ee;
+  }

@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Freckle+Face&family=Passion+One&family=Concert+One&family=Monoton&amily=Archivo+Narrow:wght@500&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+    --main-bg-color : #5628ee;
+    --Archivo-Narrow-font : 'Archivo Narrow', sans-serif;
+    --passion-font : 'Passion One', cursive;
+}
+
+body,html {
+  height: 100%;
+  font-family: Roboto, Arial;
+  color: #adafb6;
+  background: var(--main-bg-color);;
+  overflow-x: hidden;
+}
+
+.icon-menu {
+  height: 100vh;
+  width: 250px;
+  background-color: #ecdd4e;
+  transform: translate(-150px, 0);
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  transition: 1.4s;
+  font-size: 2rem;
+  font-family: "Times New Roman", Times, serif;
+  opacity: 0;
+  z-index: 10;
+}
+
+.icon-menu > li {
+  list-style: none;
+  padding: 14px 5px;
+  font-size: 1.5rem;
+  margin-left: -50px;
+}
+
+.icon-menu > li > a {
+    font-family: 'Concert One', cursive;
+  text-decoration: none;
+  color: rgba(216, 205, 205, 0.685);
+}
+
+.icon-menu-active {
+  transform: translate(0, 0);
+  opacity: 1;
+  border-right: 2px solid red;
+  border-bottom-right-radius: 70%;
+  border-top-right-radius: 30%;
+  background: linear-gradient(to right,var(--main-bg-color), #1ecfcf);
+}
+
+.icon-menu-active  .fas {
+  display: block;
+  text-align: center;
+}
+
+.fa-id-card {
+  color: gray;
+}
+
+.fa-user-tie {
+  color: #c99629;
+}
+
+.fa-user-secret {
+  color: black;
+}
+
+#icons-for-menu{
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 25%;
+}
+
+section {
+  height: 100vh;
+  width: calc(100vw-19px);
+}
+
+
+/* This is the first main section */
+.my-profile-sec {
+  background: linear-gradient(var(--main-bg-color), #be58d3);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.hello-parent{
+  padding: 20px 0px;
+  display: flex;
+  flex-direction: column;
+}
+
+.my-profile-sec > div {
+  display: flex;
+  /* flex-direction: column;
+  align-items: center; */
+}
+
+.me-me{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin-top: -5em;
+}
+
+.me{
+  height: 500px;
+  width: 400px;
+  margin-left: 15em;
+  filter: grayscale(100%);
+}
+
+.me:hover{
+  filter: none;
+}
+
+.me-h2{
+  padding: 1em 0;
+  color : orange;
+  letter-spacing: 3px;
+  margin-left: 14em;
+}
+
+.name{
+    position: relative;
+    font-size: 2rem;
+    color: #000;
+    word-spacing: 5px;
+    letter-spacing: 3px;
+    font-family: var(--Archivo-Narrow-font);
+    text-shadow: 2px 4px 5px #000 ;
+}
+
+/* footer */
+
+.footer {
+  width: 100vw;
+  height: 250px;
+  background-color: #292429;
+}
+
+.footer-text{
+  font-size: 1.7rem;
+  font-weight: 500;
+  font-family: var(--passion-font);
+  letter-spacing: 5px;
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.footer-icons{
+  padding: 2rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.footer-icons .fab ,.fas{
+  color: rgba(243, 243, 243, 0.986);
+  box-shadow: 4.1px 2px 4px    #6f7070, -5.5px -4.2px 3px  1px #0f0e0e;
+}
+
+.fa-github:hover{
+  background: linear-gradient(#000000,#f004a9);
+  -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-box-reflect: below 10px linear-gradient(transparent,#0005);
+}
+.fa-instagram:hover{
+  background: -webkit-radial-gradient(33% 100% circle, #FED373 4%, #F15245 30%, #D92E7F 62%, #9B36B7 85%, #515ECF);
+    background: radial-gradient(circle at 33% 100%, #FED373 4%, #F15245 30%, #D92E7F 62%, #9B36B7 85%, #515ECF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-box-reflect: below 5px linear-gradient(transparent,#0005);
+}
+.fa-discord:hover{
+  background: #7520fc;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-box-reflect: below 5px linear-gradient(transparent,#0005);
+}
+.fa-envelope-open-text:hover{
+  background: linear-gradient(#10ebbb,#f004a9);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-box-reflect: below 5px linear-gradient(transparent,#0005);
+}
+
+.footer-credit{
+  text-align: center;
+  margin-top: 20px;
+  font-family: var(--Archivo-Narrow-font);
+}
+
+
+/* styling the scroll bar */
+::-webkit-scrollbar {
+  width: 19px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(#029bb0, #cbe91f, #e27115);
+  border-radius: 10px;
+}
