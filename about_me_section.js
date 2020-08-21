@@ -42,7 +42,7 @@ scene.set({
     1: Scene.typing({ text: "'m Front-End", duration: 1 }),
   },
   "[data-typing='engineer']": {
-    1.5: Scene.typing({ text: "Engineer", duration: 1 }),
+    1.5: Scene.typing({ text: "Developer", duration: 1 }),
   },
   "[data-typing='with']": {
     3.3: Scene.typing({ text: "with", duration: 0.5 }),

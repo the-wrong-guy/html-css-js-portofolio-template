@@ -1,9 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
 .my-projects-sec{
-    background: linear-gradient(#ecdd4e,#4eec95, #1ecfcf);
-    display: flex;
-    flex-direction: column;
+    /* background: linear-gradient(#ecdd4e,#4eec95, #1ecfcf); */
+    min-height:100vh ;
+    min-width: 100vw;
+    
   }
+
+ 
 
   .project-header{
     color: #000000;
@@ -16,14 +19,6 @@
     animation-direction: alternate;
   }
 
-  @keyframes forHeader {
-    from{
-      color: rgb(7, 7, 7);
-    }
-    to{
-      color: rgb(235, 252, 0);
-    }
-  }
 
   .project-header-span{
     color: #fff;
@@ -51,22 +46,26 @@
 
   .project-frames{
     display: flex;
-    justify-content: center;
-    margin-top: 16%;
-  
+    margin-top: 4%;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
   }
 
-  .project-frames > iframe{
-    margin: 0  60px;
-    width: 330px;
-    height: 200px;
-    border: 10px solid #df491c;
+  .project-frames > div{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .project-frames > div > iframe{
+    width: 30vw;
+    height: 70vh;
+    margin-top: 20px;
+    border: 5px solid #ffffff;
   }
 
   .frame-names{
-    margin-top:7px ;
-    display: flex;
-    justify-content: space-evenly;
+    margin-top:10px;
+    text-align: center;
     font-weight: 700;
     letter-spacing: 1px;
   }
@@ -74,4 +73,17 @@
   .frame-names > a:hover{
    color: #000000;
    text-shadow: 0px 2px 4px #09d3ee;
+  }
+
+   @media screen and (max-width:600px){
+
+    .project-frames > div > iframe{
+      width: 90vw;
+      height: 70vh;
+      margin-top: 20px;
+      border: 5px solid #ffffff;
+    }
+    .last-child{
+      margin-bottom: 50px !important;
+    }
   }
