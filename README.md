@@ -1,5 +1,8 @@
 ## My Portofolio
 
+*Use this Project to get inspire  or copy some ideas for your next project or for your own portfolio* 
+
+
 ### **Languages and Libraries Used**
 - **HTML**
 - **CSS**
