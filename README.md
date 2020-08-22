@@ -1,8 +1,8 @@
 ## My Portofolio
 
 ### **Languages and Libraries Used**
-- HTML
-- CSS
+- *HTML*
+- *CSS*
 - JavaScript
 - Laxx.js
 - Scene.js
@@ -12,4 +12,4 @@
 
 
 
-## **Live link of the Project**
+### **Live link of the Project**
