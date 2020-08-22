@@ -4,7 +4,7 @@
 - **HTML**
 - **CSS**
 - **JavaScript**
-- **Laxx.js**
+- **[Laxx.js](https://github.com/alexfoxy/lax.js)**
 - **Scene.js**
 
 ### **ScreenShots**
