@@ -14,6 +14,6 @@
 ![alt text](image.jpg) -->
 
 
-### **Live link of the Project**
+### **Live link of the Project** 👻
 
-[Portfolio Template](https://portfolio-template-bhargab.netlify.app/ "portfolio")📑👻
+[Portfolio Template](https://portfolio-template-bhargab.netlify.app/ "portfolio")📑
