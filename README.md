@@ -9,6 +9,7 @@
 - **JavaScript**
 - **[Laxx.js](https://github.com/alexfoxy/lax.js "laxx.js")**
 - **[Scene.js](https://github.com/daybrush/scenejs "scene.js")**
+- **[Font Awesome](https://fontawesome.com/v4.7.0/icons/ "font awesome")**
 
 <!-- ### **ScreenShots**
 
