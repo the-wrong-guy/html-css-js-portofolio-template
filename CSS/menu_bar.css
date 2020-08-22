@@ -20,9 +20,38 @@
     position: absolute;
     height: 4px;
     border-radius: 2px;
-    background: rgb(0, 0, 0);
     transition: transform 0.45s cubic-bezier(0.9, -0.6, 0.3, 1.6),
       width 0.2s ease 0.2s;
+    animation : back 1s linear;
+    animation-iteration-count: infinite;
+    /* animation-fill-mode: forwards; */
+    /* animation-direction: alternate;  */
+  }
+
+  @keyframes back {
+    0%{
+      background-image: linear-gradient(90deg, hsl(259,61%,55%),hsl(331,61%,55%),hsl(43,61%,55%),hsl(115,61%,55%),hsl(187,61%,55%));
+    }
+    10%{
+      background-image: linear-gradient(90deg, hsl(226,81%,64%),hsl(271,81%,64%),hsl(316,81%,64%),hsl(1,81%,64%),hsl(46,81%,64%),hsl(91,81%,64%),hsl(136,81%,64%),hsl(181,81%,64%));    }
+    20%{
+      background-image: linear-gradient(0deg, hsl(297,86%,59%),hsl(342,86%,59%),hsl(27,86%,59%),hsl(72,86%,59%),hsl(117,86%,59%),hsl(162,86%,59%),hsl(207,86%,59%),hsl(252,86%,59%));    }
+    30%{
+      background-image: linear-gradient(90deg, hsl(188,93%,68%),hsl(233,93%,68%),hsl(278,93%,68%),hsl(323,93%,68%),hsl(8,93%,68%),hsl(53,93%,68%),hsl(98,93%,68%),hsl(143,93%,68%));    }
+    40%{
+      background-image: linear-gradient(90deg, hsl(141,81%,76%),hsl(186,81%,76%),hsl(231,81%,76%),hsl(276,81%,76%),hsl(321,81%,76%),hsl(6,81%,76%),hsl(51,81%,76%),hsl(96,81%,76%));    }
+    50%{
+      background-image: linear-gradient(45deg, hsl(19,67%,54%),hsl(64,67%,54%),hsl(109,67%,54%),hsl(154,67%,54%),hsl(199,67%,54%),hsl(244,67%,54%),hsl(289,67%,54%),hsl(334,67%,54%));    }
+    60%{
+      background-image: linear-gradient(45deg, hsl(151,61%,51%),hsl(196,61%,51%),hsl(241,61%,51%),hsl(286,61%,51%),hsl(331,61%,51%),hsl(16,61%,51%),hsl(61,61%,51%),hsl(106,61%,51%));    }
+    70%{
+      background-image: linear-gradient(90deg, hsl(260,59%,55%),hsl(311.429,59%,55%),hsl(2.857,59%,55%),hsl(54.286,59%,55%),hsl(105.714,59%,55%),hsl(157.143,59%,55%),hsl(208.571,59%,55%));    }
+    80%{
+      background-image: linear-gradient(0deg, hsl(47,79%,62%),hsl(92,79%,62%),hsl(137,79%,62%),hsl(182,79%,62%),hsl(227,79%,62%),hsl(272,79%,62%),hsl(317,79%,62%),hsl(2,79%,62%));    }
+    90%{
+      background-image: linear-gradient(45deg, hsl(224,85%,66%),hsl(269,85%,66%),hsl(314,85%,66%),hsl(359,85%,66%),hsl(44,85%,66%),hsl(89,85%,66%),hsl(134,85%,66%),hsl(179,85%,66%));    }
+    100%{
+      background-image: linear-gradient(162deg, hsl(227,82%,51%),hsl(278.429,82%,51%),hsl(329.857,82%,51%),hsl(21.286,82%,51%),hsl(72.714,82%,51%),hsl(124.143,82%,51%),hsl(175.571,82%,51%));    }
   }
   
   .menu .first-div {

@@ -4,14 +4,14 @@
 - **HTML**
 - **CSS**
 - **JavaScript**
-- **[Laxx.js](https://github.com/alexfoxy/lax.js)**
-- **Scene.js**
+- **[Laxx.js](https://github.com/alexfoxy/lax.js "laxx.js")**
+- **[Scene.js](https://github.com/daybrush/scenejs "scene.js")**
 
-### **ScreenShots**
+<!-- ### **ScreenShots**
 
 ![alt text](image.jpg)
 ![alt text](image.jpg)
-![alt text](image.jpg)
+![alt text](image.jpg) -->
 
 
 ### **Live link of the Project**

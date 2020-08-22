@@ -22,8 +22,9 @@
 
   .project-header-span{
     color: #fff;
-    -webkit-text-stroke: 2px rgb(13, 238, 5);
-    animation : stroke 2s linear ;
+    -webkit-text-stroke: 2px rgb(238, 5, 5);
+  }
+    /* animation : stroke 2s linear ;
     animation-iteration-count: infinite;
   }
   
@@ -40,7 +41,7 @@
     100%{
       -webkit-text-stroke-color: rgb(218, 173, 26);
     }
-  }
+  } */
 
 
 
@@ -76,7 +77,9 @@
   }
 
    @media screen and (max-width:600px){
-
+    .project-header{
+      font-size: 1.8em;
+    }
     .project-frames > div > iframe{
       width: 90vw;
       height: 70vh;
