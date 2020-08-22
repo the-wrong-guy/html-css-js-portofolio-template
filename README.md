@@ -1,6 +1,6 @@
 ## My Portofolio
 
-*Use this Project to get inspire  or copy some ideas for your next project or for your own portfolio* 
+*Use this Project to get inspire  or copy some ideas for your next project or for your own portfolio* 😊
 
 
 ### **Languages and Libraries Used**
@@ -19,4 +19,4 @@
 
 ### **Live view of the Project** 👻
 
-[Portfolio Template](https://portfolio-template-bhargab.netlify.app/ "portfolio")📑
+[Portfolio](https://portfolio-template-bhargab.netlify.app/ "portfolio")📑
