@@ -2,6 +2,8 @@
 
 *Use this Project to get inspire  or copy some ideas for your next project or for your own portfolio* 😊
 
+**PS:** *I made this website to be funky and colorful and i leave most of the links and pages blank, so copy it and make it in your own style*
+
 
 ### **Languages and Libraries Used**
 - **HTML**
